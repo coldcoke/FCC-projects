@@ -1,0 +1,79 @@
+body{
+  background-color: #ff9900;
+  width: max-device-width;
+  font-family: 'Quicksand';
+  font-size: 1.2em;
+}
+li{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+footer{
+  padding-top: 50px;
+  text-align: center;
+}
+figcaption{
+  margin: auto;
+}
+h1, h2{
+  font-family: 'Abril Fatface';
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2.0em;
+}
+h3{
+  text-transform: capitalize;
+  padding-left: 10px;
+  text-align: center;
+}
+p{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+span{
+  color: #fff;
+}
+figure{
+  margin: auto;
+  width: 70%;
+}
+aside{
+  width: 19%;
+  border: solid #000 5px;
+}
+article{
+  background-color: #ffcc00;
+  border: solid #ffff66 5px;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+aside, article{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 25px 25px;
+}
+header{
+  background-color: #ffcc00;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+blockquote{
+  text-align: center;
+  font-size: 2em;
+}
+@media screen and (max-width:600px) {
+  aside, article{
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+    border-radius: 10px;
+  }
+}
